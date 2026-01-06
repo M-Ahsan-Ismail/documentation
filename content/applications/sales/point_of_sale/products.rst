@@ -37,3 +37,73 @@ Once POS product categories are created, assign them to specific products:
 To limit the categories displayed on the POS register, navigate to the :ref:`POS settings
 <pos/use/settings>` and select the relevant categories in the :guilabel:`Restrict Categories` field
 under the :guilabel:`Product & PoS categories` section.
+
+.. _pos/products/combos:
+
+Product combos
+==============
+
+A product combo consists of a set of items known as :ref:`combo choices
+<pos/products/combos/choices>` and offers combination options at a special price.
+
+.. _pos/products/combos/choices:
+
+Combo choices creation
+----------------------
+
+To create the combo choices that will be added to the :ref:`product combo
+<pos/products/combos/combo-creation>`, follow the next steps:
+
+#. Go to :menuselection:`Point of Sale --> Products --> Combo Choices` and click :guilabel:`New`.
+#. Enter a name for the combo choice.
+#. Set the maximum selectable items for the combo using the :guilabel:`Maximum items` field.
+#. Set the number of items included in the combo using the :guilabel:`Includes free` field.
+#. Click :guilabel:`Add a line` under the :guilabel:`Options` section to add items that constitute
+   the combo choices.
+
+The :guilabel:`Combo Choices` are now ready to be added to a :ref:`Product Combo
+<pos/products/combos/combo-creation>`.
+
+.. note::
+   - If you are using the same app for different points of sale, set the :guilabel:`Company` field
+     to the relevant point of sale.
+   - The :guilabel:`Combo Price` field automatically calculates and displays the price for an extra
+     item based on the price of the least expensive item in the selection.
+   - Defining an :guilabel:`Extra Price` for an item alters the price of the product combo. The
+     :guilabel:`Extra Price` differs from the :guilabel:`Combo Price`.
+
+.. image:: products/combo-form.png
+   :scale: 75%
+
+.. _pos/products/combos/combo-creation:
+
+Product combo creation
+----------------------
+
+To create a specific product that contains :ref:`combo choices <pos/products/combos/choices>`,
+follow the next steps:
+
+#. Go to :menuselection:`Point of Sale --> Products --> Products` and click :guilabel:`New`.
+#. Enter a product name.
+#. Set the :guilabel:`Product Type` to :guilabel:`Combo` and select the relevant :ref:`Combo
+   Choices <pos/products/combos/choices>`.
+#. Add a :guilabel:`Sales Price`.
+#. Optionally, click the :guilabel:`Point of Sale` tab to select the preferred :guilabel:`Category`.
+
+.. note::
+   The sales price of the combo product is fixed and does not vary based on the individual prices
+   of included items or the quantity of items in the combo. The combo product price is only
+   affected by the extra price optionally defined at the :ref:`combo choices creation
+   <pos/products/combos/choices>`, or if a variant of one of the items has a specified extra price.
+
+.. _pos/products/combos/application:
+
+Practical application
+---------------------
+
+To use combos, follow these steps:
+
+#. Open the :ref:`POS register <pos/use/open-register>`.
+#. Click the desired combo, and select the preferred items.
+#. Click :guilabel:`Add to order`.
+#. Continue with the order process.

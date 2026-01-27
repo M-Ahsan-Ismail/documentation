@@ -143,7 +143,7 @@ Edit the template:
   and, if relevant, adding or removing signers and/or documents.
 - Optionally, :ref:`define or edit settings for specific signers
   <sign/prepare-document/signer-settings>`, such as requiring additional authentication, allowing a
-  signer to delegate signing, or assigning a fixed signer.
+  signer to be replaced, or assigning a fixed signer.
 - Optionally, define or edit general settings for the template by clicking the :icon:`fa-cog`
   :guilabel:`(cog)` icon beside the template name, then clicking :icon:`fa-cog`
   :menuselection:`Configuration`:
@@ -479,14 +479,12 @@ Signer settings
 ~~~~~~~~~~~~~~~
 
 To define additional configuration for signers, click the :icon:`fa-ellipsis-v` :guilabel:`(vertical
-ellipsis)` icon on the row of the signer.
-
-For each signer, the following options are available:
+ellipsis)` icon on the row of the signer. For each signer, the following options are available:
 
 - :guilabel:`Authentication`: Require the signer to :ref:`authenticate using a specific
   authentication method <sign/security/authentication>`.
-- :guilabel:`Can delegate`: Enable this option to allow the signer to delegate signing to another
-  person. The person to whom signing is delegated then signs the document in their own name.
+- :guilabel:`Can delegate`: Allow :ref:`the signer to be replaced
+  <sign/request-signatures/change-signers>` after the signature request has been sent.
 - :guilabel:`Assign to`: Assign a specific contact as signer by selecting them from the dropdown.
 
 .. _sign/prepare-document/add-tags:
@@ -513,6 +511,10 @@ or selecting a template, click :guilabel:`Send`, then configure the signature re
 For each signer, select a contact or type an email address. Optionally, enable :ref:`Signing Order
 <sign/configure-request/signing-order>` to control the order in which the document or document
 envelope is signed.
+
+.. tip::
+   A signer's email address can be :ref:`modified after the signature request has been sent
+   <sign/request-signatures/change-signers>` if needed.
 
 It is also possible to:
 
@@ -591,7 +593,7 @@ Manage signature requests and signed documents
 ==============================================
 
 All signature requests that have been sent are visible in :menuselection:`Sign --> Documents --> All
-Documents`. The list view and Kanban view offer different possiblities:
+Documents`. The list view and Kanban view offer different possibilities:
 
 In the list view:
 
@@ -600,14 +602,16 @@ In the list view:
 - :icon:`fa-refresh` :guilabel:`Resend` a signature request manually
 - :icon:`fa-pencil-square-o` :guilabel:`Sign` a document or document envelope
 - :icon:`fa-download` :guilabel:`Download` the fully signed document(s)
-- for a cancelled signature request, click :icon:`fa-info` :guilabel:`Details` to see the details of
-  the cancelled request
+- for a :ref:`cancelled signature request <sign/request-signatures/cancel>`, click :icon:`fa-info`
+  :guilabel:`Details` to see the details of the cancelled request
 
 .. tip::
    Click the :icon:`oi-settings-adjust` :guilabel:`(slider)` icon in the upper-right corner to see
    more information for each request, such as each document included, tags, and, in the case of
    documents sent using a template, the :doc:`Odoo model <../../studio/models_modules_apps>` the
    template is linked to.
+
+.. _sign/request-signatures/manage-kanban:
 
 In the Kanban view:
 
@@ -623,12 +627,57 @@ In the Kanban view:
 - click the :icon:`fa-ellipsis-v` :guilabel:`(vertical ellipsis)` icon in the top-right of the card
   to reveal more options:
 
-  - see the :guilabel:`Details` of the signature request, including the expiry date, if relevant,
-    whether or not reminders have been set, activity logs, and more
-  - :guilabel:`Cancel` a signature request that *has not been* fully signed
+  - see the :guilabel:`Details` of the signature request, including the expiry date, reminder
+    settings, the list of signers and contacts in copy, and the activity logs.
+  - :ref:`cancel a signature request <sign/request-signatures/cancel>` that *has not been* fully
+    signed
   - :guilabel:`Archive` a signature request
   - select a color dot to add a a colored bar to the left side of a card to visually differentiate
     it
+
+.. _sign/request-signatures/change-signers:
+
+Replace a signer or update a signer's email address
+---------------------------------------------------
+
+.. note::
+   A signer can be replaced if the :guilabel:`Can delegate` option was :ref:`enabled for that signer
+   <sign/prepare-document/signer-settings>` when the document was being prepared for signing.
+   The email address of a signer can be updated regardless of this setting.
+
+To replace a signer or update a signer's email address in a signature request, follow these steps:
+
+#. Go to :menuselection:`Sign --> Documents --> All documents` and switch to the :ref:`Kanban
+   view <sign/request-signatures/manage-kanban>`.
+#. Click the :icon:`fa-ellipsis-v` :guilabel:`(vertical ellipsis)` icon on the relevant signature
+   request's card and select :guilabel:`Details`.
+#. In the :guilabel:`Signers` tab, click the current signer's name.
+#. - To replace the signer, click the name again and select the new signer.
+   - To update a signer's email address, click the name again or, if the :guilabel:`Can delegate`
+     option was enabled for the signer, click the :icon:`fa-arrow-right` :guilabel:`(Internal Link)`
+     icon to the right of the name, then update the contact form.
+
+The signature request is then automatically sent to the new signer or email address upon saving or
+navigating away from the signature request or contact form.
+
+.. _sign/request-signatures/cancel:
+
+Cancel a signature request
+--------------------------
+
+A signature request can be cancelled if it has not yet been fully signed. To cancel a signature
+request, follow these steps:
+
+#. Go to :menuselection:`Sign --> Documents --> All Documents`.
+#. Click the relevant signature request in the list.
+#. Click the :icon:`fa-cog` :guilabel:`(Actions)` icon beside the name of the request, then select
+   :guilabel:`Cancel request`.
+
+.. tip::
+    It is also possible to cancel a signature request from the :ref:`Kanban view
+    <sign/request-signatures/manage-kanban>`. To do so, click the :icon:`fa-ellipsis-v`
+    :guilabel:`(vertical ellipsis)` icon in the top-right corner of the relevant document's card,
+    then :guilabel:`Cancel`.
 
 .. _sign/request-signatures/manage-update-tags:
 

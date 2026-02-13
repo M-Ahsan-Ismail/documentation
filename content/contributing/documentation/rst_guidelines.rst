@@ -876,6 +876,19 @@ the rows and the second level represents the columns.
                - France
                - Turquoise
 
+.. tip::
+   Use specific parameters to adjust the appearance and layout of list tables:
+
+   - `:class: table-striped`: apply alternating row colors
+   - `:class: table-sticky-header`: keep the header row fixed while scrolling
+   - `:widths:`: define column proportions (avoid using `auto`)
+
+ These options are supported for **list tables** only and must not be applied to grid tables.
+
+.. seealso::
+   - `Sphinx directives <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html
+     #tables>`_
+
 Grid tables
 -----------
 

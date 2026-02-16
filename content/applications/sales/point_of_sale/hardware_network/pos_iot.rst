@@ -27,9 +27,9 @@ To connect the POS with an :doc:`IoT system </applications/general/iot>`:
           the barcode scanner to be compatible. This is most likely the barcode scanner's default
           configuration.
       * - Scale
-        - :ref:`Connect the scale and power it on <pos/hardware/scale>`.
+        - :doc:`Connect the scale and power it on <scale>`.
       * - Customer display
-        - :ref:`Connect a screen <pos/hardware/display>` to the :abbr:`IoT (Internet of
+        - :doc:`Connect a screen <customer_display>` to the :abbr:`IoT (Internet of
           Things)` box to display the :abbr:`PoS (Point of Sale)` order.
       * - Payment terminal
         - The connection process depends on the terminal. Refer to the :doc:`payment terminals

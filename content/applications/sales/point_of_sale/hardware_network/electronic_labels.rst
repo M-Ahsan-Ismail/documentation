@@ -6,9 +6,6 @@ Electronic shelf labels allow you to display product information like prices and
 shelves and to synchronize them remotely from the backend. This removes the need to print new labels
 when product information changes.
 
-.. image:: electronic_labels/electronic-label.png
-   :alt: electronic label from Pricer
-
 .. note::
    Odoo uses electronic labels from `Pricer <https://www.pricer.com/>`_.
 
@@ -154,8 +151,8 @@ successfully sent to Pricer`. If there is any issue, the system displays an erro
 Discount labels
 ---------------
 
-To display a discount label on a Pricer Tag, you need to link a :doc:`pricelist <pricelists>` to the
-product variant associated with the tag.
+To display a discount label on a Pricer Tag, you need to link a :doc:`pricelist
+<../pricing/pricelists>` to the product variant associated with the tag.
 
 To do so, open the product variant form:
 
@@ -183,4 +180,4 @@ displaying both the old, crossed-out price and the discounted price.
      the product at the point of sale does not automatically apply the discount.
 
 .. seealso::
-   :doc:`discounts`
+   :doc:`../pricing/discounts`

@@ -1,6 +1,6 @@
-=============
-ePOS printers
-=============
+================
+Receipt printers
+================
 
 ePOS printers are designed to work seamlessly with Point of Sale systems. Once connected, these
 devices automatically share information, allowing for direct printing of tickets from the POS system
@@ -15,7 +15,7 @@ To use an ePos printer in Point of Sale:
 #. Activate the :guilabel:`ePos Printer` feature.
 #. Fill in the field with your ePos IP address.
 
-.. image:: epos_printers/setting.png
+.. image:: receipt_printers/setting.png
    :alt: setting to enable the ePos printer feature
 
 .. note::

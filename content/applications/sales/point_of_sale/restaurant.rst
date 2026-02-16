@@ -317,8 +317,8 @@ Order printing
 ==============
 
 To enable sending orders to a kitchen or a bar printer, :doc:`connect a printer
-<configuration/epos_printers>` to Odoo, go to the :ref:`POS settings <pos/use/settings>`, and follow
-these steps:
+<hardware_network/receipt_printers>` to Odoo, go to the :ref:`POS settings <pos/use/settings>`, and
+follow these steps:
 
 #. Scroll down to the :guilabel:`Preparation` section and enable the :guilabel:`Preparation
    Printers` setting.
@@ -330,7 +330,7 @@ these steps:
      </applications/general/iot/devices/printer>`. This process requires the IoT app and an IoT
      system.
    - If using an :doc:`Epson printer that does not require an IoT system connection
-     <configuration/epos_printers>`, select :guilabel:`Use an Epson printer` and enter the
+     <hardware_network/receipt_printers>`, select :guilabel:`Use an Epson printer` and enter the
      :guilabel:`Epson Printer IP Address`.
 #. Define the product categories to be printed by clicking :guilabel:`Add a line` in the
    :guilabel:`Printed Product Categories` field and selecting the preferred category from the
@@ -356,7 +356,7 @@ The printer is then connected to the point of sale and can print kitchen orders 
      :guilabel:`Payment` to reprint a duplicate of the last kitchen order.
 
 .. seealso::
-   - :doc:`Connect an IoT system to a POS <configuration/pos_iot>`
+   - :doc:`Connect an IoT system to a POS <hardware_network/pos_iot>`
    - :doc:`/applications/general/iot/devices/printer`
    - :doc:`/applications/general/iot/connect`
    - :doc:`/applications/sales/point_of_sale/preparation`
@@ -418,7 +418,7 @@ After a successful :ref:`order payment <pos/restaurant/bills/payment>`, click :i
 :guilabel:`Print Full Receipt` to generate and print a bill.
 
 .. important::
-   If a printer is :doc:`configured and linked <configuration/epos_printers>` to a point of sale,
+   If a printer is :doc:`configured and linked <hardware_network/receipt_printers>` to a point of sale,
    the receipt is automatically printed upon payment confirmation.
 
 .. seealso::

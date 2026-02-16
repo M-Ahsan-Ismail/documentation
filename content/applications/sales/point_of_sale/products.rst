@@ -15,6 +15,8 @@ To update an existing product from the POS register, long-click a product to ope
 pop-up, and click :guilabel:`Edit`. Change the necessary product details and click :guilabel:`Save`
 to return to the POS register.
 
+.. _pos/products/categories:
+
 POS product categories
 ======================
 

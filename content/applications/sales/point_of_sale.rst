@@ -18,11 +18,11 @@ Odoo :abbr:`POS (Point of Sale)` integrates with all essential point-of-sale har
 - :doc:`Payment terminals <point_of_sale/payment_methods/terminals>`;
 - Cash drawers;
 - :doc:`Cash machines <point_of_sale/payment_methods/cash_machines>`;
-- :ref:`Scales <pos/hardware/scale>`;
+- :doc:`Scales <point_of_sale/hardware_network/scale>`;
 - :doc:`Barcode scanners <point_of_sale/shop/barcode>`;
-- :ref:`Customer displays <pos/hardware/display>`;
+- :doc:`Customer displays <point_of_sale/hardware_network/customer_display>`;
 - :doc:`Preparation displays <point_of_sale/preparation>`;
-- :doc:`Electronic shelf labels <point_of_sale/pricing/electronic_labels>`.
+- :doc:`Electronic shelf labels <point_of_sale/hardware_network/electronic_labels>`.
 
 This hardware can be connected directly or through an :doc:`IoT system <../general/iot>`.
 
@@ -34,8 +34,8 @@ This hardware can be connected directly or through an :doc:`IoT system <../gener
 
    point_of_sale/use
    point_of_sale/products
-   point_of_sale/configuration
-   point_of_sale/pos_hardware
+   point_of_sale/hardware_network
+
    point_of_sale/employee_login
    point_of_sale/preparation
    point_of_sale/self_order

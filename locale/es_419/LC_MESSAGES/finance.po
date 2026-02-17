@@ -41,7 +41,7 @@ msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-13 18:30+0000\n"
-"PO-Revision-Date: 2026-02-16 23:21+0000\n"
+"PO-Revision-Date: 2026-02-17 23:21+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-19-doc/finance/es_419/>\n"
@@ -23651,8 +23651,8 @@ msgid ""
 "Enable any relevant :ref:`company-wide options <taxes/configuration/"
 "company>`."
 msgstr ""
-"Habilita las :ref:`opciones a nivel de empresa <taxes/configuration/"
-"company>` que correspondan."
+"Habilita las :ref:`opciones a nivel de empresa <taxes/configuration/company>`"
+" que correspondan."
 
 #: ../../content/applications/finance/accounting/taxes.rst:100
 msgid ""
@@ -39722,6 +39722,11 @@ msgid ""
 "the :icon:`oi-view-list` :guilabel:`(list view)` icon in the top-right "
 "corner and select :guilabel:`Montly/Yearly Receipts`."
 msgstr ""
+"Para imprimir los recibos de cierre mensual o anual, :ref:`abre la caja "
+"registradora de PdV correspondiente <pos/use/open-register>` desde el **"
+"tablero de PdV**. Haz clic en el icono :icon:`oi-view-list` :guilabel:`"
+"(vista de lista)` ubicado en la esquina superior derecha y selecciona "
+":guilabel:`Recibos mensuales/anuales`."
 
 #: ../../content/applications/finance/fiscal_localizations/austria.rst:302
 msgid ""
@@ -42941,6 +42946,8 @@ msgid ""
 ":ref:`Open the relevant point of sale shop and make a sale <pos/use/open-"
 "register>`."
 msgstr ""
+":ref:`Abre la tienda de punto de venta correspondiente y realiza una venta <"
+"pos/use/open-register>`."
 
 #: ../../content/applications/finance/fiscal_localizations/brazil.rst:727
 msgid ""
@@ -43056,6 +43063,10 @@ msgid ""
 "entry for the order indicates that the taxes were incorrectly calculated. In "
 "this case, reprocessing the NFC-e is required."
 msgstr ""
+"Si corriges el error y la caja del PdV está cerrada, Odoo registra el ajuste "
+"de impuestos en el chatter del asiento contable relacionado. El asiento "
+"contable de la orden indica que los impuestos se calcularon de forma "
+"incorrecta. En este caso deberás reprocesar la NFC-e."
 
 #: ../../content/applications/finance/fiscal_localizations/brazil.rst:None
 msgid "Point of sale order view form."
@@ -43072,6 +43083,8 @@ msgid ""
 ":ref:`Refunds can be processed directly in Odoo <pos/use/refund>`, but "
 "*cancellations* must be performed through the official government portal."
 msgstr ""
+":ref:`Procesa los reembolsos en Odoo <pos/use/refund>`, pero realiza las "
+"*cancelaciones* desde el portal oficial del gobierno."
 
 #: ../../content/applications/finance/fiscal_localizations/brazil.rst:788
 msgid ""
@@ -50560,6 +50573,8 @@ msgid ""
 "The P0S cashier can :ref:`create a new contact for a customer <pos/use/"
 "customers>` who requests an invoice from the POS register."
 msgstr ""
+"El cajero del PdV puede :ref:`crear un nuevo contacto para un cliente <pos/"
+"use/customers>` que solicita una factura desde la caja del PdV."
 
 #: ../../content/applications/finance/fiscal_localizations/ecuador.rst:873
 msgid ""
@@ -50606,6 +50621,11 @@ msgid ""
 "information. Credit notes cannot be created for *Consumidor Final* and can "
 "be managed :ref:`directly from the POS register <pos/use/refund>`."
 msgstr ""
+"Si el cliente solicita una nota de crédito por la devolución de este tipo de "
+"compra, es necesario que crees la nota de crédito con la información real "
+"del contacto del cliente. No puedes crear notas de crédito para un *"
+"Consumidor Final* y puedes gestionarlas :ref:`desde la caja del PdV <pos/use/"
+"refund>`."
 
 #: ../../content/applications/finance/fiscal_localizations/ecuador.rst:898
 msgid "Electronic invoice: specific customer"
@@ -50627,6 +50647,9 @@ msgid ""
 "purchase, the credit note and return process can be managed :ref:`directly "
 "from the POS register <pos/use/refund>`."
 msgstr ""
+"Si el cliente solicita una nota de crédito por la devolución de este tipo de "
+"compra, puedes gestionar la nota de crédito y la devolución :ref:`desde la "
+"caja registradora del PdV <pos/use/refund>`."
 
 #: ../../content/applications/finance/fiscal_localizations/egypt.rst:3
 msgid "Egypt"
@@ -53102,6 +53125,11 @@ msgid ""
 "daily, the module prevents them from resuming a session that was opened more "
 "than 24 hours ago. Such a session must be closed before selling again."
 msgstr ""
+"Las órdenes del PdV quedan registradas como asientos contables al cerrar la "
+"caja del PdV. Puedes cerrar la caja en cualquier momento. Para motivar a los "
+"usuarios a que realicen un cierre diario, el módulo impide reanudar una "
+"sesión abierta hace más de 24 horas, ya que es necesario cerrarla antes de "
+"vender de nuevo."
 
 #: ../../content/applications/finance/fiscal_localizations/france.rst:704
 msgid ""
@@ -53536,6 +53564,8 @@ msgid ""
 "`Odoo Cloud Hosting - Service Level Agreement <https://www.odoo.com/cloud-"
 "sla>`_"
 msgstr ""
+"`Alojamiento en la nube de Odoo - Acuerdo de nivel de servicio <https://"
+"www.odoo.com/cloud-sla>`_"
 
 #: ../../content/applications/finance/fiscal_localizations/germany.rst:160
 msgid ""
@@ -53941,6 +53971,9 @@ msgid ""
 "the :abbr:`DSFinV-K (Digitale Schnittstelle der Finanzverwaltung für "
 "Kassensysteme)` service of fiskaly."
 msgstr ""
+"Cada vez que cierras la caja de PdV, el sistema envía los detalles de las "
+"órdenes al servicio :abbr:`DSFinV-K "
+"(Digitale Schnittstelle der Finanzverwaltung für Kassensysteme)` de fiskaly."
 
 #: ../../content/applications/finance/fiscal_localizations/germany.rst:321
 msgid ""
@@ -56919,6 +56952,8 @@ msgid ""
 "The following modules are installed automatically with the Italian "
 "localization:"
 msgstr ""
+"Los siguientes módulos se instalan en automático con la localización "
+"italiana:"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:24
 msgid "Italy - Accounting"
@@ -56942,19 +56977,20 @@ msgstr "Implementación de la factura electrónica"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:30
 msgid "Italy - Declaration of Intent"
-msgstr ""
+msgstr "Italia - Declaración de intenciones"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:31
 msgid "`l10n_it_edi_doi`"
-msgstr ""
+msgstr "`l10n_it_edi_doi`"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:32
 msgid "Support for the Declaration of Intent (Dichiarazione di Intento)"
 msgstr ""
+"Compatibilidad con la declaración de intenciones (Dichiarazione di Intento)."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:33
 msgid "Italy - Sale E-invoicing"
-msgstr ""
+msgstr "Italia - Facturación electrónica de ventas"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:34
 msgid "`l10n_it_edi_sale`"
@@ -56966,15 +57002,15 @@ msgstr "Modificaciones de ventas para la facturación electrónica."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:36
 msgid "Italy - Point of Sale"
-msgstr ""
+msgstr "Italia - Punto de venta"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:37
 msgid "`l10n_it_pos`"
-msgstr ""
+msgstr "`l10n_it_pos`"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:38
 msgid "Integration of Odoo PoS with the Italian fiscal printer"
-msgstr ""
+msgstr "Integración de Punto de venta de Odoo con la impresora fiscal italiana"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:39
 msgid "Italy - Accounting Reports"
@@ -56986,19 +57022,19 @@ msgstr "`l10n_it_reports`"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:41
 msgid "Italian reports"
-msgstr ""
+msgstr "Reportes italianos"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:42
 msgid "Italy - Bank Receipts (Ri.Ba.)"
-msgstr ""
+msgstr "Italia - Recibos bancarios (Ri.Ba.)"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:43
 msgid "`l10n_it_riba`"
-msgstr ""
+msgstr "`l10n_it_riba`"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:44
 msgid "Generation of |Ri.Ba.| files from batch payments in Odoo"
-msgstr ""
+msgstr "Generación de archivos |Ri.Ba.| desde pagos por lote en Odoo."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:45
 msgid "Italy - Stock DDT"
@@ -57041,10 +57077,13 @@ msgid ""
 "To use all the features of this fiscal localization, the following fields "
 "are required on the :ref:`company record <general/companies/company>`:"
 msgstr ""
+"Para usar todas las funciones de esta localización fiscal deberás completar "
+"los siguientes campos en el :ref:`registro de la empresa <general/companies/"
+"company>`:"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:67
 msgid ":guilabel:`Address`: the address of the company"
-msgstr ""
+msgstr ":guilabel:`Dirección`: La dirección de la empresa."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:68
 msgid ":guilabel:`VAT`: VAT of the company"
@@ -57052,11 +57091,12 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:69
 msgid ":guilabel:`Codice Fiscale`: the fiscal code of the company"
-msgstr ""
+msgstr ":guilabel:`Codice Fiscale`: El código fiscal de la empresa."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:70
 msgid ":guilabel:`Tax System`: the tax system under which the company falls"
 msgstr ""
+":guilabel:`Régimen fiscal`: El régimen fiscal al que pertenece la empresa."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:None
 msgid "Company information to be provided"
@@ -57180,6 +57220,9 @@ msgid ""
 "pay VAT from the supplier to the customer. The customers pay the VAT "
 "*themselves* to the |AdE| instead. There are different types:"
 msgstr ""
+"El mecanismo de **inversión del sujeto pasivo** es una regla de IVA que "
+"traslada la obligación de pagar el IVA del proveedor al cliente. El cliente "
+"paga el IVA *por su cuenta* a la |AdE|. Existen distintos tipos:"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:0
 msgid ":guilabel:`Internal Reverse Charge` (for domestic sales)"
@@ -57223,18 +57266,28 @@ msgid ""
 "provides a set of special 0% taxes that can be assigned to each reverse-"
 "charged invoice lines, representing the most commonly used configurations."
 msgstr ""
+"Las facturas de cliente con **inversión del sujeto pasivo** no muestran "
+"importe del IVA, pero la |AdE| exige que el vendedor indique el motivo de "
+":guilabel:`exención de impuestos` y la :guilabel:`referencia legal` que "
+"habilitan este mecanismo. Odoo incluye un conjunto de impuestos especiales "
+"al 0% que puedes asignar a cada línea de factura con inversión del sujeto "
+"pasivo y que representan las configuraciones más comunes."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:150
 msgid ""
 "Italian companies subject to **reverse charge** must send bill details to "
 "the |AdE|."
 msgstr ""
+"Las empresas italianas sujetas a la **inversión del sujeto pasivo** deben "
+"enviar los detalles de las facturas a la |AdE|."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:153
 msgid ""
 "Self-reported VAT XML files must be issued and sent to the |AdE| for "
 "**reverse charged** bills."
 msgstr ""
+"Debes emitir y enviar los archivos XML de IVA autoliquidado para las "
+"facturas con **inversión del sujeto pasivo** a la |AdE| ."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:155
 msgid ""
@@ -57260,6 +57313,10 @@ msgid ""
 "are identifiable by the :guilabel:`VJ` tag, and can be found by going "
 "to :menuselection:`Accounting --> Reporting --> Tax Return`."
 msgstr ""
+"La localización italiana incluye una sección específica de :ref:`tablas de "
+"impuestos <accounting/tax-returns/tax-grids>` para impuestos de **inversión "
+"del sujeto pasivo**. Estas tablas tienen asignada la etiqueta :guilabel:`VJ` "
+"y están en :menuselection:`Contabilidad --> Reportes --> Declaración fiscal`."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:None
 msgid "Reverse charge tax grid from the VJ section of the Tax Declaration"
@@ -57272,6 +57329,9 @@ msgid ""
 "Make sure all the Italian-specific e-invoicing :ref:`modules <localizations/"
 "italy/modules>` are :ref:`installed <general/install>`."
 msgstr ""
+"Asegúrate de que todos los :ref:`módulos <localizations/italy/modules>` "
+"italianos de facturación electrónica estén :ref:`instalados <general/"
+"install>`."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:182
 msgid ""
@@ -57281,6 +57341,11 @@ msgid ""
 "be in an XML :abbr:`EDI (Electronic Data Interchange)` format called "
 "**FatturaPA** and formally validated by the system before being delivered."
 msgstr ""
+"El |SdI| es el sistema de :doc:`facturación electrónica <../accounting/"
+"customer_invoices/electronic_invoicing>` utilizado en Italia. Permite enviar "
+"y recibir facturas electrónicas a (y de) tus clientes. Los documentos deben "
+"estar en formato XML :abbr:`EDI (Intercambio electrónico de datos)` llamado "
+"**FatturaPA** y el sistema debe validarlos antes de entregarlos."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:187
 msgid ""
@@ -57289,22 +57354,30 @@ msgid ""
 "their behalf. To do so, you must set up Odoo's :guilabel:`Destination Code` "
 "on the |AdE| portal."
 msgstr ""
+"Para poder recibir facturas y notificaciones debes informar al servicio del "
+"|SdI| que envíe tus archivos a Odoo y que los procese en tu nombre. Para "
+"ello, configura el :guilabel:`código de destino` de Odoo en el portal de la "
+"|AdE|."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:191
 msgid ""
 "Go to the `Italian authorities portal <https://"
 "ivaservizi.agenziaentrate.gov.it/portale>`_ and authenticate."
 msgstr ""
+"Ve al `portal de las autoridades italianas <https://"
+"ivaservizi.agenziaentrate.gov.it/portale>`_ e inicia sesión."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:193
 msgid "Go to the :guilabel:`Fatture e Corrispettivi` section."
-msgstr ""
+msgstr "Ve a la sección :guilabel:`Fatture e Corrispettivi`."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:194
 msgid ""
 "Set the user as Legal Party for the VAT number you wish to configure the "
 "electronic address."
 msgstr ""
+"Configura al usuario como representante legal del número de identificación "
+"fiscal al que deseas asignar la dirección electrónica."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:195
 msgid ""
@@ -57320,7 +57393,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:202
 msgid "Demo and production modes"
-msgstr ""
+msgstr "Modo de demostración y modo de producción"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:205
 msgid ""
@@ -57330,6 +57403,12 @@ msgid ""
 "the :guilabel:`Fattura Electronica (FatturaPA)` section. Once this option is "
 "activated, production mode is enabled and cannot be disabled."
 msgstr ""
+"El modo de demostración está activo de forma predeterminada y permanece así "
+"hasta que habilites la opción :guilabel:`Al marcar esta casilla, autorizo a "
+"Odoo a enviar y recibir mis facturas a través del Sistema di Interscambio "
+"(SDI)` en la sección :guilabel:`Fattura Electronica (FatturaPA)`. Una vez "
+"que activas esta opción, el modo de producción queda habilitado y ya no "
+"podrás desactivarlo."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:209
 msgid ""
@@ -57337,6 +57416,9 @@ msgid ""
 "government. In this mode, invoices must be *manually* downloaded as XML "
 "files and uploaded to the |AdE|'s website."
 msgstr ""
+"El modo de demostración simula un entorno en el que ocurre el envío de "
+"facturas al gobierno. En este modo es necesario que descargues los archivos "
+"XML *de forma manual* y los subas al sitio web de la |AdE|."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:212
 msgid ""
@@ -57345,18 +57427,26 @@ msgid ""
 "process them. To activate production mode and enable transmission to the |"
 "SdI|, follow these steps:"
 msgstr ""
+"Como Odoo transmite los archivos a través de su servidor antes de enviarlos "
+"al |SdI| o de recibirlos en tu base de datos, es necesario que autorices a "
+"Odoo para que los procese. Sigue estos pasos para activar el modo de "
+"producción y habilitar el envío al |SdI|:"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:216
 msgid ""
 "Make sure the :guilabel:`Codice Fiscale` field is completed in "
 "the :ref:`Company information <localizations/italy/company>`."
 msgstr ""
+"Asegúrate de completar el campo :guilabel:`Codice Fiscale` en la :ref:`"
+"información de la empresa <localizations/italy/company>`."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:218
 msgid ""
 "Go to :menuselection:`Accounting --> Configuration --> Settings` and scroll "
 "to the :guilabel:`Italian Electronic Invoicing` section."
 msgstr ""
+"Ve a :menuselection:`Contabilidad --> Configuración --> Ajustes` y dirígete "
+"a la sección :guilabel:`Facturación electrónica italiana`."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:220
 msgid ""
@@ -57364,6 +57454,9 @@ msgid ""
 "option :guilabel:`By checking this box, I authorize Odoo to send and receive "
 "my invoices through the Sistema di Interscambio (SDI)`."
 msgstr ""
+"En la sección :guilabel:`Fattura Electronica (FatturaPA)`, habilita la "
+"opción :guilabel:`Al marcar esta casilla, autorizo a Odoo a enviar y recibir "
+"mis facturas a través del Sistema di Interscambio (SDI)`."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:228
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:647
@@ -57377,6 +57470,10 @@ msgid ""
 "companies and the |AdE| to reduce errors and verify the correctness of "
 "operations."
 msgstr ""
+"El envío de facturas al |SdI| en Italia es un proceso electrónico "
+"obligatorio para compartir los documentos fiscales en formato XML entre "
+"empresas y la |AdE|. Este proceso reduce errores y valida la corrección de "
+"las operaciones."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:235
 msgid ""
@@ -57392,7 +57489,7 @@ msgstr "Arquitectura del sistema EDI"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:244
 msgid "XML documents creation"
-msgstr ""
+msgstr "Creación de documentos XML"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:246
 msgid ""
@@ -57400,6 +57497,10 @@ msgid ""
 "`FatturaPA` format required by the |AdE|. Once the invoices needed are "
 "selected, go to :guilabel:`Action` and click on :guilabel:`Send and Print`."
 msgstr ""
+"Odoo genera los archivos XML necesarios como archivos adjuntos a las "
+"facturas en el formato `FatturaPA` que exige la |AdE|. Una vez que "
+"selecciones las facturas correspondientes, ve a :guilabel:`Acción` y haz "
+"clic en :guilabel:`Enviar e imprimir`."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:None
 msgid "Send and Print menu"
@@ -57440,6 +57541,11 @@ msgid ""
 "Check the sending status of the invoice through the :guilabel:`Check "
 "Sending` button at the top of the invoice's view."
 msgstr ""
+"La opción :guilabel:`Enviar a la agencia tributaria` en el cuadro :guilabel:`"
+"Enviar e imprimir` envía el archivo adjunto al :guilabel:`servidor proxy`, "
+"que recopila todas las solicitudes y luego las transmite al |SdI| mediante "
+"WebServices. Revisa el estado de envío con el botón :guilabel:`Verificar "
+"envío` que se encuentra en la parte superior de la factura."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:277
 msgid "Processing by SDI"
@@ -57454,6 +57560,12 @@ msgid ""
 "may take variable time, ranging from a few seconds up to a day, depending on "
 "the queue of invoices sent throughout Italy."
 msgstr ""
+"El |SdI| recibe el documento y verifica si existen errores. En esta etapa, "
+"la factura está en el estado :guilabel:`En proceso en SdI` y esto también "
+"aparece en ella. Además, recibe un número de :guilabel:`Transacción "
+"FatturaPA` que podrás visualizar en la pestaña :guilabel:`Facturación "
+"electrónica`. El proceso puede tardar desde unos segundos hasta un día, "
+"según la cantidad de facturas enviadas en Italia."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:None
 msgid "Check Sending button and Sdi Processing state"
@@ -57470,6 +57582,10 @@ msgid ""
 "Storage (Conservazione Sostitutiva)` if explicitly requested on the Agency's "
 "portal."
 msgstr ""
+"Si el documento es válido, la |AdE| lo registra y lo considera fiscalmente "
+"válido. Luego procede con el archivo en :guilabel:`conservación sustitutiva "
+"(Conservazione Sostitutiva)` si lo solicitaste de forma expresa en el portal "
+"de la agencia."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:298
 msgid ""
@@ -57478,6 +57594,10 @@ msgid ""
 "AdE| supply free and certified storage to meet the specifications requested "
 "by law."
 msgstr ""
+"Odoo no ofrece el servicio de `conservación sustitutiva <https://"
+"www.agid.gov.it/index.php/it/piattaforme/conservazione>`_. Otros proveedores "
+"y la |AdE| ofrecen almacenamiento gratuito y certificado que cumple con los "
+"requisitos legales."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:303
 msgid ""
@@ -57488,10 +57608,16 @@ msgid ""
 "process can take up to three days. The invoice status is :guilabel:`Accepted "
 "by SDI, Forwarding to Partner`."
 msgstr ""
+"El :guilabel:`código de destino` del |SdI| intenta reenviar la factura al "
+"cliente en la dirección proporcionada, ya sea un correo `PEC` o un "
+":guilabel:`código de destino` del |SdI| para los canales WebServices de su "
+"ERP. El sistema realiza hasta 6 intentos cada 12 horas, por lo que el "
+"proceso puede tardar hasta tres días. En este caso, la factura muestra el "
+"estado :guilabel:`Aceptada por el SDI, en envío al cliente`."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:312
 msgid "Possible rejection"
-msgstr ""
+msgstr "Posible rechazo"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:314
 msgid ""
@@ -57502,6 +57628,11 @@ msgid ""
 "invoice, return the invoice to :guilabel:`Draft`, and fix the errors. Once "
 "the invoice is ready, it can be resent."
 msgstr ""
+"El |SdI| puede detectar errores en la información, incluso formales. En este "
+"caso, la factura muestra el estado :guilabel:`Rechazada por SDI`. El sistema "
+"muestra las observaciones del |SdI| en la parte superior de la pestaña de la "
+"factura. Para resolverlo, elimina los archivos adjuntos, cambia la factura a "
+":guilabel:`Borrador` y corrige los errores, después podrás volver a enviarla."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:321
 msgid ""
@@ -57519,7 +57650,7 @@ msgstr "Estado de rechazo EDI"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:330
 msgid "Forwarding completed"
-msgstr ""
+msgstr "Envío completo"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:332
 msgid ""
@@ -57538,10 +57669,14 @@ msgid ""
 "email or by mail. The invoice is then in the :guilabel:`Accepted by SDI, "
 "Partner Delivery Failed` state."
 msgstr ""
+"Si el |SdI| no logra contactar a tu cliente, es posible que no esté "
+"registrado en el portal de la |AdE|. En este caso, envía la factura en PDF "
+"por correo electrónico o postal. La factura muestra el estado :guilabel:`"
+"Aceptada por SDI, entrega fallida al cliente`."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:342
 msgid "Tax integration"
-msgstr ""
+msgstr "Integración de impuestos"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:344
 msgid ""
@@ -57550,6 +57685,10 @@ msgid ""
 "information integration back to the |SdI|. It happens when a transaction "
 "that was tax exempt becomes taxable for any reason."
 msgstr ""
+"Cuando recibes una factura de proveedor, ya sea desde el |SdI|, en papel o "
+"mediante un archivo XML importado, la agencia tributaria puede pedirte que "
+"envíes una integración de información fiscal al |SdI|. Esto ocurre cuando "
+"una operación exenta, por algún motivo, pasa a estar sujeta a impuestos."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:349
 msgid "Here is a non-exhaustive list:"
@@ -57598,6 +57737,9 @@ msgid ""
 "type that needs tax integration, as detailed in the :ref:`localizations/"
 "italy/document-types` section."
 msgstr ""
+"Odoo puede detectar que tu factura de proveedor corresponde a un tipo de "
+"documento que requiere integración fiscal, como se detalla en la sección "
+":ref:`localizations/italy/document-types`."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:366
 msgid ""
@@ -57636,7 +57778,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:389
 msgid "TD01 - invoices"
-msgstr ""
+msgstr "TD01 - Facturas"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:391
 msgid ""
@@ -57648,7 +57790,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:398
 msgid "TD02 - down payments"
-msgstr ""
+msgstr "TD02 - Anticipos"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:400
 msgid ""
@@ -57670,7 +57812,7 @@ msgstr ""
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:405
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:545
 msgid "It is an invoice."
-msgstr ""
+msgstr "Es una factura."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:406
 msgid "All invoice lines are related to down payment sales order lines."
@@ -57680,7 +57822,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:411
 msgid "TD04 - credit notes"
-msgstr ""
+msgstr "TD04 - Notas de crédito"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:413
 msgid ""
@@ -57693,7 +57835,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:421
 msgid "TD07, TD08, TD09 - simplified invoicing"
-msgstr ""
+msgstr "TD07, TD08, TD09 - Facturación simplificada"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:423
 msgid ""
@@ -57720,13 +57862,16 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:430
 msgid ":guilabel:`Invoice Date`: issue **date** of the invoice."
-msgstr ""
+msgstr ":guilabel:`Fecha de la factura`: La **fecha** de emisión de la factura."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:431
 msgid ""
 ":ref:`Company Info <general/companies/company>`: the **seller**'s full "
 "credentials (VAT/TIN number, name, full address)."
 msgstr ""
+":ref:`Información de la empresa <general/companies/company>`: Los datos "
+"completos del **vendedor** "
+"(número de identificación fiscal, nombre, dirección completa)."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:433
 msgid ":guilabel:`VAT`: the **buyer**'s VAT/TIN number (on the partner form)."
@@ -57747,7 +57892,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:438
 msgid "It is a domestic transaction (i.e., the partner is from Italy)."
-msgstr ""
+msgstr "Es una transacción nacional (es decir, el contacto es de Italia)."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:439
 msgid ""
@@ -57779,7 +57924,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:452
 msgid "TD16 - internal reverse charge"
-msgstr ""
+msgstr "TD16 - Cargo revertido interno"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:454
 msgid ""
@@ -57794,7 +57939,7 @@ msgstr ""
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:514
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:580
 msgid "It is a vendor bill."
-msgstr ""
+msgstr "Es una factura de proveedor."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:459
 msgid ""
@@ -57802,10 +57947,13 @@ msgid ""
 "these :ref:`tax grids <localizations/italy/grids>`: `VJ6`, `VJ7`, `VJ8`, "
 "`VJ12`, `VJ13`, `VJ14`, `VJ15`, `VJ16`, `VJ17`"
 msgstr ""
+"Tienen al menos **un impuesto** en las líneas de la factura que apunta a una "
+"de estas :ref:`tablas fiscales <localizations/italy/grids>`: `VJ6`, `VJ7`, "
+"`VJ8`, `VJ12`, `VJ13`, `VJ14`, `VJ15`, `VJ16`, `VJ17`"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:465
 msgid "TD17 - buying services from abroad"
-msgstr ""
+msgstr "TD17 - Compra de servicios extranjeros"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:467
 msgid ""
@@ -57843,6 +57991,8 @@ msgid ""
 "It has at least **one tax** on the invoice lines that targets the tax "
 "grid :ref:`VJ3 <localizations/italy/grids>`."
 msgstr ""
+"Tienen al menos **un impuesto** en las líneas de la factura que apunta a la "
+"tabla fiscal :ref:`VJ3 <localizations/italy/grids>`."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:480
 msgid ""
@@ -57855,7 +58005,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:486
 msgid "TD18 - buying goods from EU"
-msgstr ""
+msgstr "TD18 - Compra de bienes de la UE"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:488
 msgid ""
@@ -57874,13 +58024,15 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:494
 msgid "The **partner** is from an **EU** country."
-msgstr ""
+msgstr "El **cliente** es de un país de la **UE**."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:495
 msgid ""
 "It has at least one tax on the invoice lines that targets the tax "
 "grid :ref:`VJ9 <localizations/italy/grids>`."
 msgstr ""
+"Tienen al menos un impuesto en las líneas de la factura que apunta a la "
+"tabla fiscal :ref:`VJ9 <localizations/italy/grids>`."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:497
 msgid ""
@@ -57893,7 +58045,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:503
 msgid "TD19 - buying goods from VAT deposit"
-msgstr ""
+msgstr "TD19 - Compra de bienes de un depósito de IVA"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:505
 msgid ""
@@ -57930,6 +58082,8 @@ msgid ""
 "It has at least one tax on the invoice lines that targets the tax "
 "grid :ref:`VJ3 <localizations/italy/grids>`."
 msgstr ""
+"Tienen al menos un impuesto en las líneas de la factura que apunta a la "
+"tabla fiscal :ref:`VJ3 <localizations/italy/grids>`."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:517
 msgid ""
@@ -57942,7 +58096,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:523
 msgid "TD24 - deferred invoices"
-msgstr ""
+msgstr "TD24 - Facturas diferidas"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:525
 msgid ""
@@ -57988,6 +58142,9 @@ msgid ""
 "`l10n_it_stock_ddt` :ref:`module <localizations/italy/modules>`. In this "
 "case, a dedicated :guilabel:`Document Type` `TD24` is used in the e-invoice."
 msgstr ""
+"La facturación electrónica de facturas diferidas requiere el :ref:`módulo <"
+"localizations/italy/modules>` `l10n_it_stock_ddt`. En este caso se usa un "
+":guilabel:`tipo de documento` específico `TD24` en la factura electrónica."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:543
 msgid ""
@@ -58030,6 +58187,7 @@ msgstr ""
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:565
 msgid "Use the generic |SdI| :guilabel:`Destination Code` `2R4GTO8`."
 msgstr ""
+"Usa el :guilabel:`código de destino` genérico del |SdI|, que es `2R4GTO8`."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:567
 msgid ""
@@ -58058,6 +58216,8 @@ msgid ""
 "It has at least one tax on the invoice lines that targets the tax "
 "grids :ref:`VJ <localizations/italy/grids>`."
 msgstr ""
+"Tienen al menos un impuesto en las líneas de la factura que apunta a las "
+"tablas fiscales :ref:`VJ <localizations/italy/grids>`."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:583
 msgid "The **country** of the partner is **San Marino**."
@@ -58065,7 +58225,7 @@ msgstr "El **país** del contacto es **San Marino**."
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:588
 msgid "Public administration businesses (B2G)"
-msgstr ""
+msgstr "Empresas de administración pública (B2G)"
 
 #: ../../content/applications/finance/fiscal_localizations/italy.rst:590
 msgid ""
@@ -60931,7 +61091,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/malaysia.rst:40
 msgid "`l10n_my_edi_pos`"
-msgstr ""
+msgstr "`l10n_my_edi_pos`"
 
 #: ../../content/applications/finance/fiscal_localizations/malaysia.rst:41
 msgid ""
@@ -61051,21 +61211,23 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/malaysia.rst:115
 msgid "SST-02 (B1);"
-msgstr ""
+msgstr "SST-02 (B1);"
 
 #: ../../content/applications/finance/fiscal_localizations/malaysia.rst:116
 msgid "SST-02 (B2, C, D, E);"
-msgstr ""
+msgstr "SST-02 (B2, C, D, E);"
 
 #: ../../content/applications/finance/fiscal_localizations/malaysia.rst:117
 msgid "SST-02A."
-msgstr ""
+msgstr "SST-02A."
 
 #: ../../content/applications/finance/fiscal_localizations/malaysia.rst:119
 msgid ""
 "To access them, navigate to :menuselection:`Accounting --> Reporting --> Tax "
 "Report`."
 msgstr ""
+"Para acceder a ellos, ve a :menuselection:`Contabilidad --> Reportes --> "
+"Reporte fiscal`."
 
 #: ../../content/applications/finance/fiscal_localizations/malaysia.rst:122
 msgid "E-invoicing integration with MyInvois"
@@ -61627,7 +61789,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/malaysia.rst:376
 msgid "POS workflow"
-msgstr ""
+msgstr "Flujo de trabajo de PdV"
 
 #: ../../content/applications/finance/fiscal_localizations/malaysia.rst:378
 msgid ""
@@ -68650,9 +68812,9 @@ msgid ""
 "Electronic Delivery Note 2.0` module (`l10n_pe_edi_stock_20`)."
 msgstr ""
 "Después de seguir los pasos para configurar la :ref:`facturación electrónica "
-"<peru-accounting-settings>` y los :ref:`datos maestros <peru-"
-"master_data>`, :ref:`instale <general/install>` el módulo :guilabel:`Perú - "
-"Nota de remisión electrónica 2.0` (`l10n_pe_edi_stock_20`)."
+"<peru-accounting-settings>` y los :ref:`datos maestros <peru-master_data>`, "
+":ref:`instale <general/install>` el módulo :guilabel:`Perú - Nota de "
+"remisión electrónica 2.0` (`l10n_pe_edi_stock_20`)."
 
 #: ../../content/applications/finance/fiscal_localizations/peru.rst:732
 msgid ""
